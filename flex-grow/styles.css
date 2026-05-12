@@ -17,8 +17,7 @@ body{
 }
 
 .flex-item{
-    border: dashed black 1px;
-    width: 100PX;
+    width: 200PX;
     height: 200px;
 } 
 
