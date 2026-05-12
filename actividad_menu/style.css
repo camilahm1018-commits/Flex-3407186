@@ -1,0 +1,84 @@
+/*Estilos globales*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    /*Estios de flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 400px;
+
+    /*etsilos de color*/
+    background-color: black;
+
+    color: white;
+    
+}
+
+.navbar_logo{
+    display: flex;
+    flex-direction: row;
+    /*estilos de fuente*/
+
+    font-weight: bold;
+    color: oklch(83.3% 0.145 321.434);
+    gap: 35px;
+    align-items: center ;
+}
+
+.navbar_logo--imagen{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.navbar_opciones{
+    /*estilos de posicionamiento*/
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+
+    /*estilos de fuente*/
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar_opciones a{
+    text-decoration: none;
+    color: oklch(83.3% 0.145 321.434);
+}
+
+.navbar_login{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+
+}
+.navbar_login a{
+    font-weight: bold;
+    text-decoration: none;
+    color: oklch(83.3% 0.145 321.434);
+}
+
+.navbar_user--imagen{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
